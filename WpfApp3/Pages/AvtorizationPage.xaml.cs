@@ -40,7 +40,7 @@ namespace WpfApp3.Pages
         }
         private void RegistrationTb_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationService.Navigate(new RegistrationPage());
         }
     }
 }
