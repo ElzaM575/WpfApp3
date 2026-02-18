@@ -12,9 +12,9 @@ namespace WpfApp3.Connection
     using System;
     using System.Collections.Generic;
     
-    public partial class Manufacturer
+    public partial class ра
     {
-        public Manufacturer()
+        public ра()
         {
             this.Product = new HashSet<Product>();
         }

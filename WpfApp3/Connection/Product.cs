@@ -30,7 +30,7 @@ namespace WpfApp3.Connection
         public bool IsActive { get; set; }
         public Nullable<int> ManufacturerID { get; set; }
     
-        public virtual Manufacturer Manufacturer { get; set; }
+        public virtual ра Manufacturer { get; set; }
         public virtual ICollection<ProductPhoto> ProductPhoto { get; set; }
         public virtual ICollection<ProductSale> ProductSale { get; set; }
         public virtual ICollection<Product> Product1 { get; set; }

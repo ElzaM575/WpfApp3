@@ -79,7 +79,7 @@ namespace WpfApp3.Pages
                     UserID = user.ID,
                     GenderID = (Gendercmb.SelectedItem as Gender).ID
                 });
-
+                DBConnection.schoolEntities.SaveChanges();
             }
         }
         private void RegistrationTb_Click(object sender, RoutedEventArgs e)

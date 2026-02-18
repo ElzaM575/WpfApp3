@@ -29,7 +29,7 @@ namespace WpfApp3.Connection
         public DbSet<ClientService> ClientService { get; set; }
         public DbSet<DocumentByService> DocumentByService { get; set; }
         public DbSet<Gender> Gender { get; set; }
-        public DbSet<Manufacturer> Manufacturer { get; set; }
+        public DbSet<ра> Manufacturer { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<ProductPhoto> ProductPhoto { get; set; }
         public DbSet<ProductSale> ProductSale { get; set; }
